@@ -1,0 +1,23 @@
+{
+  "name": "iniciando-react",
+  "version": "1.0.0",
+  "description": "my studies with React js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradHick/starting-react.git"
+  },
+  "keywords": [
+    "react",
+    "js"
+  ],
+  "author": "Brad Hick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BradHick/starting-react/issues"
+  },
+  "homepage": "https://github.com/BradHick/starting-react#readme"
+}
