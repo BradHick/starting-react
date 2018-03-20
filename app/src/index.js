@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import HelloWorld from './HelloWorld'
+import PropsValidation from './PropsValidation';
 
 
 ReactDOM.render(
-   <HelloWorld/>,
+   //<HelloWorld txt ='Hello World from React.js'/>,
+   <PropsValidation name='Bradley' age='25' height='1,82'/>,
    document.getElementById(`root`)
 );
 

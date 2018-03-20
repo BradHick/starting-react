@@ -5,7 +5,8 @@ class HelloWorld extends Component{
   constructor(props){
     super(props);
     this.state = {
-
+      name: 'foo',
+      txt: this.props.txt
     }
   }
   render(){
@@ -13,7 +14,7 @@ class HelloWorld extends Component{
      <div className="My-class-from-react">
      {/*this is my first component using Reactjs*/}
       <StateInput/>
-      <h1>Hello World from React.js</h1>
+      <h1>{this.state.txt}</h1>
      </div>
    )
  }
